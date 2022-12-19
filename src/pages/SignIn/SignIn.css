@@ -1,0 +1,48 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+
+.form h1{
+    font-style: italic;
+    margin-top: 10px 0px 0px;
+
+}
+
+.form form{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.form form label{
+    text-align: left;
+    font-size: 32px;
+    font-weight: 700px;
+}
+
+.form form input{
+    background-color: #FEFEFE;
+    padding: 20px;
+    border: none;
+    box-shadow: 4px 2px 5px 1px rgb(76, 76, 76);
+    border-radius: 0px 10px 10px 0px;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+.form form button {
+    background-color: rgb(14, 78, 92);
+    padding: 20px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
